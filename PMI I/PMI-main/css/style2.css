@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Press+Start+2P&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient( 45deg, rgb(20, 20, 20), #1f165f);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+div.cabecalho{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.cabecalho img{
+    width: 35rem;
+    margin-left: 20px;
+}
+
+div.info1 h1,
+div.info2 h1,
+div.info3 h1,
+div.info4 h1{
+    color: #74C663;
+    text-shadow: -8px 7px 16px black, -5px -5px black;
+    padding-bottom: 25px;
+}
+
+div.span1{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 35px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black -8px 13px 16px 1px;
+}
+
+div .span2{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 2rem;
+    border:none;
+    border-radius: 20px;
+    box-shadow: black -8px 13px 16px 1px;
+}
+
+div.span3{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 35px;
+    margin-top:2rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: black -8px 13px 16px 1px;
+}
+
+div.span4{
+    background-color: #D9D9D9;
+    color: black;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 35px;
+    margin-top: 2rem;
+    border:none;
+    border-radius: 20px;
+    box-shadow: black -8px 13px 16px 1px;
+}
+
+div.curiosidades{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 7rem;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 3rem;
+    border-radius: 35px;
+    background-color:#7a0edf;
+    box-shadow: rgb(186, 197, 26) 0px 1px 10px 10px;
+}
+
+.curiosidades h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #74C663;
+    text-shadow: -8px 7px 16px black, -5px -5px black;
+    width: 100%;
+    align-items: center;
+}
+
+div.voltar{
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    background-image: linear-gradient( 45deg, rgb(29, 124, 37), #1f165f);
+    border-radius: 1%;
+    left: 50%;
+    top: 50%;
+    box-shadow: rgb(186, 197, 26) 0px 1px 10px 10px;
+
+}
+
+.voltar button{
+    font-family: 'Press Start 2P', cursive;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 15%;
+    background-color:black;
+    color:#74C663;
+    border-style: inset;
+    border-color: #74C663;
+    text-shadow: #74C663 0px 0px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    box-shadow: rgb(186, 197, 26) 0px 1px 10px 10px;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: #74C663;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #1f165f;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #110d30;
+}
+
+footer{
+    margin-top: 8rem;
+    width: 100%;
+    padding: 8px;
+    color: #74C663;
+    text-shadow: 0px 0px 15px #74C663, -5px -5px black;
+    background-color: #02010a;
+}

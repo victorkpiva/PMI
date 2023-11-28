@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Press+Start+2P&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( 45deg, rgb(20, 20, 20), #1f165f);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+div.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho img{
+    width: 35rem;
+    margin-left: 20px;
+    margin-bottom: 3rem;
+}
+
+div.info{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 3rem;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    border-radius: 35px;
+    background-color:#D9D9D9;
+    box-shadow: black -3px 13px 16px 1px;
+}
+
+.info h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #74C663;
+    text-shadow: -8px 7px 16px black, -5px -5px black;
+    width: 100%;
+    align-items: center;
+}
+
+.container_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_2 img{
+    width: 11rem;
+    height: 10rem;
+    padding: 10px;
+    margin-top: 6rem;
+    background-image: url(../images/fundoCinza.png);
+    border-radius: 10%;
+    box-shadow: black -5px 13px 17px 1px;
+    align-items: center;
+}
+
+div.button{
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    background-image: linear-gradient( 45deg, rgb(29, 124, 37), #1f165f);
+    border-radius: 1%;
+    box-shadow: rgb(186, 197, 26) 0px 1px 10px 10px;
+
+}
+
+.button button{
+    font-family: 'Press Start 2P', cursive;
+    width: 12rem;
+    height: 6rem;
+    border-radius: 15%;
+    background-color:black;
+    color:#74C663;
+    border-style: inset;
+    border-color: #74C663;
+    text-shadow: #74C663 0px 0px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    box-shadow: rgb(186, 197, 26) 0px 1px 10px 10px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #74C663;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+div.container_3{ 
+    padding: 7%;
+    background-image: url(../images/background.png);
+    width: 100vw;
+    height: 109%;
+    background-image: linear-gradient( 45deg, rgb(20, 20, 20), #1f165f);
+    align-items: center;
+    margin: 3%,-3%;
+    
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #77ee07;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1f165f;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    color: #74C663;
+    text-shadow: 10px 0px 15px #74C663, -5px -5px black;
+    background-color: #02010a;
+}

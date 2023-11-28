@@ -1,0 +1,1 @@
+Link do protótipo no figma: https://www.figma.com/proto/xvHERxFmPstB6KobbESWqx/prot%C3%B3tipo-bind.it?page-id=0%3A1&type=design&node-id=21-372&viewport=163%2C213%2C0.06&t=21u3w7P4WnUrz9fQ-1&scaling=scale-down&starting-point-node-id=21%3A372&mode=design
